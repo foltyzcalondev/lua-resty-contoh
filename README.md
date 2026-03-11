@@ -18,7 +18,7 @@
    local nama = "Budi"
    local umur = 17
    local alamat = "Jakarta, Indonesia"
-   resty_contoh.sapa(nama, umur, alamat) -- Output: Halo!, nama saya Budi, umur saya 17 tahun, dan alamat saya di Jakarta, Indonesia.
+   resty_contoh.sapa(nama, umur, alamat) -- Output: Halo!, nama saya Budi, umur saya 17 tahun, dan alamat saya di Jakarta, Indonesia :).
 
    resty_contoh.tampilkan_ascii() -- Output: AsciiArt OpenResty sederhana.
 ```
