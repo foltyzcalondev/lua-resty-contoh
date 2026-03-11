@@ -21,6 +21,7 @@ build = {
   type = "builtin",
   modules = {
     ["resty.contoh"] = "lib/resty/contoh.lua",
-    ["resty.sampel"] = "lib/resty/sampel.lua"
+    ["resty.sampel"] = "lib/resty/sampel.lua",
+    ["resty.misal"] = "lib/resty/misal.lua"
   }
 }
