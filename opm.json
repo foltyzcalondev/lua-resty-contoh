@@ -1,0 +1,12 @@
+{
+  "name" : "lua-resty-contoh",
+  "version" : "1.0.0",
+  "description" : "Ini adalah contoh library OpenResty sederhana :).",
+  "author" : "Ahmad Daniar <foltyzxzhen@gmail.com>",
+  "license" : "MIT",
+  "repository" : {
+     "type" : "git",
+     "url" : "https://github.com/foltyzcalondev/lua-resty-contoh"
+  },
+  "keywords" : ["contoh", "library", "pustaka", "misal", "sampel"]
+}
