@@ -12,6 +12,8 @@
 > Contoh penggunaan:
 ```{lua}
    local resty_contoh = require "resty.contoh"
+   local resty_misal = require "resty.misal"
+   local resty_sampel = require "resty.sampel"
 
    resty_contoh.halo() -- Output: Halo, OpenResty!
 
@@ -21,6 +23,9 @@
    resty_contoh.sapa(nama, umur, alamat) -- Output: Halo!, nama saya Budi, umur saya 17 tahun, dan alamat saya di Jakarta, Indonesia :).
 
    resty_contoh.tampilkan_ascii() -- Output: AsciiArt OpenResty sederhana.
+
+   -- resty_misal.misal()
+   -- resty_sampel.sampel()
 ```
 
 <mark style="background-color: yellow, font-weight: bolder, font-family: monospace;">:bulb: Catatan: library ini sedang dalam tahap pengembangan, dan mungkin masih terdapat beberapa kesalahan dan bug kecil.</mark>
