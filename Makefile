@@ -10,15 +10,14 @@ LUA_LIB_DIR = $(PREFIX)/lib/lua/$(LUA_VERSION)
 .PHONY = all debug install
 
 all:
-> @echo "\x1b[1mMembangun $(NAME) v$(VERSION)...\x1b[0m"
+> @echo "\e[1mMembangun $(NAME) v$(VERSION)...\e[0m"
 
 debug:
-> @echo "\x1b[1;34m[info] Debug diaktifkan.\x1b[0m"
+> @echo "\e[1;34m[info] Debug diaktifkan.\e[0m"
 
 install:
-> @echo "\x1b[1m[*] Menginstall library...\x1b[0m"
-> mkdir -p $(OPENRESTY_PREFIX)/$(NAME)
-> @cp lib/contoh.lua $(OPENRESTY_PREFIX)/$(NAME)/
-> @cp lib/sampel.lua $(OPENRESTY_PREFIX)/$(NAME)/
-> @cp lib/misal.lua $(OPENRESTY_PREFIX)/$(NAME)/
-> @echo "\x1b[1;33m[✓] Selesai menginstall library!\x1b[0m"
+> @echo "\e[1m[*] Menginstall library...\e[0m"
+> @cp lib/contoh.lua $(OPENRESTY_PREFIX)/lualib/resty/
+> @cp lib/sampel.lua $(OPENRESTY_PREFIX)/lualib/resty/
+> @cp lib/misal.lua $(OPENRESTY_PREFIX)/lualib/resty/
+> @echo "\e[1;33m[✓] Selesai menginstall library!\e[0m"
